@@ -1,0 +1,22 @@
+# Carpetas de resultados y outputs
+__pycache__/
+results/
+outputs/
+data/*
+
+# Archivos de datos grandes
+*.geojson
+*.csv.gz
+*.hdf5
+*.parquet
+
+# Archivos de caches de librerías
+.cache/
+.ipynb_checkpoints/
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración y credenciales
+config.py
+creds.json
